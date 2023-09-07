@@ -1,0 +1,11 @@
+commit 80bf10f50ebb9acd6f0503edd5bdcd0e46318ec9
+Author: NancyLlamas <18170371@itculiacan.edu.mx>
+Date:   Thu Sep 7 12:41:02 2023 -0700
+
+    Titulo y encabezado
+
+commit 873266b4df2e8224388d5df04d653ed411bf86f5
+Author: NancyLlamas <18170371@itculiacan.edu.mx>
+Date:   Thu Sep 7 12:35:39 2023 -0700
+
+    Commit inicial

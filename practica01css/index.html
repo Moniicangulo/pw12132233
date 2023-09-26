@@ -1,14 +1,16 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica 01 HTML + CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
         <img src="img/resplandor.png" alt="fondo">
-        <img src="img/logo.png" alt="logo empresa">
+        <img src="img/logo.png" alt="logo empresa" id = "logo">
+
         <nav>
             <ul>
                 <li>Inicio</li>
@@ -25,37 +27,40 @@
             </form>
         </nav>
     </header>
-    <section>
+    <section id="seccion01">
         <article>
             <img src="img/slide2.jpg" alt="banner">
         </article>
     </section>
-    <section>
-        <article>
+    <section id="seccion02">
+        <article id="article01">
             <img src="img/separador.jpg" alt="separador">
             <br>
-            Una Seccion
+           <span class="unaSeccion nite">Una Seccion</span>  
             <br>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus eligendi, exercitationem modi impedit distinctio cupiditate saepe tempora labore ipsa, voluptates cumque assumenda animi ipsam dolorem laborum consequuntur corrupti delectus aliquam!
             <p></p>
             <input type="submit" value="Ver mas..">
         </article>
-        <article>
+        <article id="article02">
             <img src="img/separador.jpg" alt="separador"> 
             <br>
-            Otra Seccion
+            <span class="otraSeccion nite">Otra Seccion</span>
             <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos obcaecati porro dolorem sunt, iure assumenda laboriosam, facere, architecto nihil amet sint. Quaerat dolore, non quod provident assumenda aliquam quidem suscipit!
             <p></p>
             <input type="submit" value="Ver mas...">
         </article>
-        <article>
+        <article id="article03">
             <img src="img/separador.jpg" alt="separador">
             <br>
-            Un video
+            <span class="otraSeccion nite">Un video</span>
             <br>
             <img src="img/video.jpg" alt="video">
         </article>
     </section>
+    <footer>
+        
+    </footer>
 </body>
 </html>

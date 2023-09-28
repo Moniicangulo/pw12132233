@@ -4,3 +4,48 @@ body{
     margin: 0px auto;
     max-width: 1024px;
 }
+header{
+    background: #d1e3ee; /* tambien se puede usar rgda() */ 
+}
+header nav{
+    background: #026cd6;
+    margin: 0px auto;
+    padding: 2px 0px;
+    width: 99%;
+    border-radius: 5px; /* un borde de 5px es loideal para que se mire bien*/
+}
+header nav ul li{
+    /*border: 1px solid white;*/
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+header nav form{
+    float: right; /* lo recarga hacia la derecha*/
+    margin-right: 20px;
+    margin-top: -35px;
+}
+header nav form input{
+    border-radius: 5px;
+}
+header nav form input[type="submit"]{ /* no debe haber ningun espacio dentro de los corchetes*/
+    background: green;
+    color: white;
+    border: 1px solid green;
+}
+#logo{
+    margin-top: -150px;
+}
+#seccion01{
+    margin-top: 15px;
+}
+#seccion01 article{
+    text-align: center  ;
+}
+#seccion01 article img{
+    width: 98%;
+    border: 5px solid rgba(150, 150, 150, 0.5);
+}
+
+

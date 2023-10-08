@@ -3,7 +3,6 @@ body{
     margin: 0px auto;
     max-width: 1078px; /*cliente*/
     min-width: 1078px;
-
 }
 header input{
     float: right;
@@ -21,14 +20,52 @@ header nav ul li{
     border-bottom: 1px solid lightgray;
     padding-bottom: 4px;
 }
+footer{
+    color: white;
+    background: #4267B3;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    line-height: 1.5em;
+    border: color solid red;
+}
+footer article{
+    display: inline-block;
+    font-size: 0.8em;
+}
 #bgoffer{
     position: relative;
     top: -410px;
-    left: -35px;
+    left: -70px;
+}
+#footerart01{
+    margin-left: 25px;
+    width: 40%;
+    text-align: left;
+}
+#footerart02{
+    width: 35%;
+    text-align: center;
+}
+#footerart03{
+    text-align: center;
+    width: 15%;
+   
 }
 #granthams{
     margin-left: 25px;
     margin-top: 25px;
+}
+#icon_facebook{
+    position: relative;
+    top: -75px;
+}
+#icon_twitter{
+    position: relative;
+    top: -75px;
+}
+#image-right{
+    position: relative;
+    top: -95px;
 }
 #paint{
     float: right;
@@ -49,6 +86,13 @@ header nav ul li{
     width: 30%;
     margin-right: 50px;
 }
+#secc01art02 ul{
+    list-style: none;
+}
+#secc01art02 ul li:before{
+    color: #FF0099;
+    content: "• ";
+}
 #secc03art04{
     padding-left: 25px;
     padding-top: 40px;
@@ -61,6 +105,7 @@ header nav ul li{
     width: 23%;
     vertical-align: top;
     display: inline-block;
+    padding-bottom: 50px;
 }
 #terceraSeccion article img{
     vertical-align: middle;

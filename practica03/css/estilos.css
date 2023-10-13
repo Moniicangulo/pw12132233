@@ -4,11 +4,25 @@ body{
     margin: 0px auto; /* se usa para central */
     border: 1px solid red;
 }
+footer article{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    vertical-align: top;  
+    width: 31.1%;
+
+}
+footer img{
+    width: 300px;
+}
 header nav ul li{
     display: inline-block;
-    padding: 8px 10px;
+    padding: 8px 14px;
     text-align: center;
     width: 17.0%;
+}
+header ul{
+    margin-left: -39px;
 }
 header nav ul li:nth-child(2){ /* el elemento n numero tal */
     background: #849C3C;
@@ -22,7 +36,59 @@ header nav ul li:nth-child(4){
 header nav ul li:nth-child(5){
     background: lightgray;
 }
+hr{
+    color: #949494;
+    border-style: dashed;
+}
+section, footer{
+    background: #2C2C2C;
+}
+section article{
+    /* border: 1px solid blue;  */
+    display: inline-block;
+    height: 280px;
+    /* margin-left: -4px; */
+    padding: 18px 8px;
+    vertical-align: top;
+    width: 17.9%;
+}
+section article:nth-child(2){
+    background: #849C3C;
+}
+section article:nth-child(3){
+    background: #353535;
+}
+section article:nth-child(4){
+    background: #D33040;
+}
+section article:nth-child(5){
+    background: lightgrey;
+}
+section article ul{
+    list-style: none;
+}
+section article ul li{
+    margin-bottom: 10px;
+}
+section article img{
+    width: 150px;
+}
+.letra-azul{
+    color: lightblue;
+}
 .letra-blanca{
     color: white;
+}
+.letra-gris{
+    color: #949494;
+}
+.read-more{
+    margin-left: 220px;
+}
+.tam-menu-lateral{
+    font-size: 1.1em;
+}
+.tam-tarjeta{
+    font-size: 1.7em;
 }
 

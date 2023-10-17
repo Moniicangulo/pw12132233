@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600;800&display=swap');
+body{
+    font-size: 16px;
+    font-family: 'Gabarito', sans-serif;
+    max-width: 1024px;
+    margin: 0px auto; /* se usa para central */
+    padding: 15px;
+}
+header{
+    display: flex;
+    margin-bottom: 15px;
+}
+header article{
+    /* border: 1px solid red; */
+    display: inline-block;
+}
+header nav ul{
+    display: flex;
+    gap: 25px;
+    margin-left: -35px;
+}
+header nav ul li{
+    display: inline-block;
+    font-size: 1.1em;
+    text-align: center;
+   /*  margin-left: 10px; */
+    padding-right: 5px;   
+}
+footer article{
+    display: inline-block;
+    line-height: 1.3em;
+    margin-right: 23px;
+    vertical-align: top;
+    width: 17%;
+}
+hr{
+    color: #949494;
+    border-style: dashed;
+}
+#imgbike{
+    margin-left: 15px;
+    width: 370px;
+}
+#img-first-bike{
+    margin-top: 10px;
+    width: 200px;
+}
+#img-go-to-shop{
+    align-self: center;
+    width: 180px;
+}
+#img-buy{
+    align-self: flex-start;
+    margin-left: 70px;
+    width: 50px;
+}
+#img5years{
+    position: relative;
+    top: -40px;
+    width: 120px;
+}
+#section01 article{
+    height: 470px;  
+    display: inline-block;
+    vertical-align: top;
+}
+#sec01art01{
+    width: 59%;
+}
+#sec01art01 img{
+    padding-right: 15px;
+    width: 270px;
+}
+#sec01art02{
+    width: 38%;
+}
+#section02{
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+#headerart01{
+    width: 60%;
+}
+#headerart02{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+#headerart02 article{
+    vertical-align: top;
+}
+#headerart02art01{
+    align-self: flex-end;
+}
+#headerart02art01 img{
+    width: 25px;
+}
+.letra-encabezado{
+    font-size: 5.2em;
+}
+.letra-footer{
+    font-size: 1.2em;
+}
+.letra-li{
+    font-size: 1.3sem;
+}
+.letra-gris{
+    color: #949494;
+}
+.letra-verde{
+    color: #24e321;
+}
+.nito{
+    font-weight: bold;
+}

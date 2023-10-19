@@ -1,0 +1,107 @@
+body{
+    font-size: 20px;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+header nav{
+    align-items: center;
+    background: black;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+nav article{
+    display: flex;
+    align-items: center;
+}
+nav input{
+    margin: 3px;
+}
+footer{
+    background: black;
+    display: flex;
+    height: 250px;
+    justify-content:space-between;
+    padding: 15px 50px;
+}
+#logo{
+    width: 35px;
+    margin-bottom: 5px;
+}
+#section01{
+    background: #dcdcef;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 275px;
+}
+#section01 input{
+    height: 35px;
+    width: 420px;
+}
+#section02{
+    height: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 220px;
+    padding: 100px;
+}
+#inputrequest{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    height: 30px;
+    width: 140px;
+}
+#inputsing{
+    background: #4b5fd3;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 85px;
+}
+.footerart{
+    width: 15%;
+}
+.footerart02{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 25%;
+}
+.footerart02 img{
+    width: 50px;
+}
+.letra-chica{
+    font-size: 0.6em;
+}
+.letra-blanca{
+    color: white;
+}
+.letra-encabezado{
+    font-size: 3em;
+}
+.letra-gris{
+    color: gray;
+}
+.letra-azul{
+    color: #6672c9;
+}
+.nito{
+    font-weight: bold;
+}
+.sec02art{
+    margin: 0px 5px 40px 5px;
+    display: flex;
+    width: 400px;
+}
+.sec02art article{
+    margin-left: 15px;
+}
+.sec02art img{
+    width: 80px;
+}

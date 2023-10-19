@@ -16,7 +16,6 @@ header nav{
     background: #ecebec;
     display: flex;
     justify-content: flex-end;
-
 }
 header nav img{
     padding: 10px 5px 20px 5px;
@@ -29,13 +28,6 @@ input{
 #contenedor section{
     display: inline-block;
     vertical-align: top;
-}
-#img-noti{
-}
-#img-mens{
-
-}
-#img-ajustes{
 }
 #section01{
     width: 27%;

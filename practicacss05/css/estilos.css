@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600;800&display=swap');
+html{
+    background: white;
+}
+body{
+    font-size: 16px;
+    font-family: 'Gabarito', sans-serif;
+    max-width: 1024px;
+    margin: 0px auto; 
+    background: #ecebec;
+}
+header{
+    background: #265d93;
+}
+header nav{
+    background: #ecebec;
+    display: flex;
+    justify-content: flex-end;
+
+}
+header nav img{
+    padding: 10px 5px 20px 5px;
+    width: 85px;
+}
+input{
+    height: 30px;
+    width: 120px;
+}
+#contenedor section{
+    display: inline-block;
+    vertical-align: top;
+}
+#img-noti{
+}
+#img-mens{
+
+}
+#img-ajustes{
+}
+#section01{
+    width: 27%;
+}
+#section02{
+    background: white;
+    height: 700px;
+    width: 67%;
+    margin: 10px;
+    padding: 15px;
+} 
+#sec01art01{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+#sec01art01 ul{
+    list-style-type: none;
+    margin: 0px -25px;
+}
+#sec01art01 ul li{
+    padding: 7px 5px;
+}
+#sec01art02{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#sec01art02 img{
+    padding: 10px;
+}
+#sec02art01{
+    display: flex;
+    gap: 15px;
+    margin: 10px;
+}
+#sec02art01 article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    height: 170px;
+    width: 24%;
+}
+#sec02art01 article img{
+    margin-top: 20px;
+    width: 80px;
+}
+#sec02art02 img{
+    margin: 10px;
+    width: 97%;
+}
+#sec02art03{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+#sec02art03 article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    height: 200px;
+    width: 24%;
+}
+#sec02art03 img{
+    width: 110px;
+}
+#img-logo{
+    width: 200px;
+    margin-left: 450px;
+}
+.color-input{
+    background: #5bbcdc;
+}
+.fondo-azul{
+    background: #1c6ca9;
+}
+.fondo-azul-panel{
+    background: #1c4c74;
+}
+.fondo-azul-user{
+    background: #4d6caa;
+}
+.fondo-morado{
+   background: #7d1ba6;
+}
+.fondp-rojo{
+    background: #a51b1a;
+}
+.fondo-verde{
+    background: #1ca923;
+}
+.letra-chica{
+    font-size: 0.9em;
+}
+.letra-blanca{
+    color: white;
+}
+.letra-gris{
+    color: gray;
+}
+.letra-mediana{
+    font-size: 1.4em;
+}
+.margen{
+    margin-left: 15px;
+}
+.nito{
+    font-weight: bold;
+}

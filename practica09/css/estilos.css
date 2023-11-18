@@ -1,0 +1,70 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+header nav{
+    display: flex;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -35px;
+    gap: 250px;
+    list-style: none;
+}
+header section{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+footer{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+.section-letra{
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+.contenedor-art-chico{
+    display: flex;
+}
+.contenedor-art-grande{
+    display: flex;
+    justify-content: end;
+}
+.art-chico{
+    width: 150px;
+}
+.art-grande{
+    width: 300px;
+}
+.img01{
+    width: 650px;
+}
+.img02{
+    height: 155px;
+    width: 350px;
+}
+.letra-gris{
+    color: gray;
+}
+.negrita{
+    font-weight: bold;
+}
+.letra-titulo{
+    font-size: 8em;
+}
+.letra-grande{
+    font-size: 8em;
+}
+.letra-chica{
+    font-size: .8em;
+    font-weight: bold;
+}
+.titulo{
+    width: 0px auto;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h4>Buscar Personaje</h4>
+        <div class="busqueda">
+            <div class="lista-buscador">
+                <input type="search" id="caracter" class="barra-busqueda">
+                <ul id="lista"></ul>
+            </div>
+
+            <button class="boton-buscar" onclick="apicaracters();">
+                Buscar
+            </button>
+        </div>
+    </header>
+    <div class="contenedor">
+        <article class="caja" id="caja">
+            <img src="" alt="" id="foto"> <br>
+            <div>
+                <span id="nombre"></span> <br>
+                <span id="descripcion"></span> <br>
+                <span id="comics"></span>
+            </div>
+        </article>
+    </div>
+    <!-- 
+    <div>
+
+        <button onclick="anterior();"> <-- Anterior </button>
+        <button onclick="siguiente();">  Siguente </button>
+    </div> !-->
+    <script src="index.js"></script>
+</body>
+</html>

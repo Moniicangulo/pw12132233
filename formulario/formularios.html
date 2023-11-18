@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="paginaprocesa.html" method="post">
+        <input type="text" name="mombre" placeholder="Nombre"> <!-- el id sirve para el CSS -->
+        <br>
+        <input type="password" name="Clave" placeholder="Clave">
+        <br>
+        <input type="email" name="correo" placeholder="Correo">
+        <br>
+        <input type="number" name="numero" value="10">
+        <br>
+        <p>Botones de radio</p>
+        <input type="radio" name="botonradio" value="HTML"> HTML
+        <input type="radio" name="botonradio" value="CSS"> CSS
+        <input type="radio" name="botonradio" value="JS"> JS
+        <!-- se llamam igual para que se pueda seleccionar solo uno -->
+        <p>Botones de chequeo</p>
+        <input type="checkbox" name="botoncheck1" value="HTML"> HTML
+        <input type="checkbox" name="botoncheck2" value="CSS"> CSS
+        <input type="checkbox" name="botoncheck3" value="JS"> JS
+        <!-- se le ponen nombres distintos porque se pueden seleccionar mas de uno, para tener las variables -->
+        <br>
+        <input type="button" value="Click aqui">
+        <br>
+        Subir archivos <br>
+        <input type="file" name="archivo">
+        <br>
+        Buscar algo <br>
+        <input type="search" name="Buscar">
+        <br>
+        Fecha corta <br>
+        <input type="date" name="fechacorta" value="2023-11-06">
+        <br>
+        fecha larga <br>
+        <input type="datetime-local" name="fechalarga" value="2023-11-06T12:46:00.00">
+        <br>
+        <input type="week" name="semana"> <!-- muestra las semana del anio -->
+        <br>
+        <input type="month" name="mes"> <!-- muestra el mes y el anio -->
+        <br>
+        <textarea name="text" cols="30" rows="10"></textarea> <!-- no separar las etiquetas ></textarea> porque se le agg in enter al textarea -->
+        <br>
+        <select name="opciones">
+            <option disabled selected>Selecciona una opcion</option> <!-- le quitamos el value para que no se envie nada y usamos el disabled y selected para que no se pueda volver a selccionar-->
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JavaScript</option>
+        </select>
+        <p></p>
+        <input type="submit" value="Enviar datos">
+        <input type="reset" value="Borrar datos">
+    </form>
+</body>
+</html>

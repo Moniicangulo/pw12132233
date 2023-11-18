@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600;800&family=Kumbh+Sans:wght@400;700&family=Onest:wght@100;200;400;600;800&family=Open+Sans:ital@0;1&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 16px;
+    font-family: 'Onest';
+    background: #666f88;
+    margin: auto 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+:root{
+    --width: 600px;
+    --gris-claro: #788199;
+    --rojo: #e00000;
+    --aarillo-claro: #f5f5f0;
+}   
+
+header{
+    border: 1px solid purple;
+    font-size: 3em;
+    width: var(--width);
+    background-color: var(--gris-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+    gap: 15px;
+    color: #fff9e8;
+}
+header h4{
+    color: var(--rojo);
+}
+
+.busqueda{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+.lista-buscador{
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-buscador ul li{
+    background: #d3d3d3;
+    list-style: none;
+    font-size: 0.3em;
+}
+
+.barra-busqueda{
+    /* width: 79%; */
+    height: 100%;
+    background: #d3d3d3;
+    border-radius: 5px;
+}
+
+.boton-buscar{
+    width: 10%;
+    color: bisque;
+    background: #960018;
+    border: 1px solid #3c0000;
+    border-radius: 5px;
+}
+.contenedor{
+    width: var(--width);
+    height: 200px;
+    background: var(--gris-claro);
+}
+.caja{
+    width: var(--width);
+    background: var(--gris-claro);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.caja img{
+    width: 30%;
+    border-radius: 10%;
+    align-self: center;
+}
+#nombre{
+    font-size: 2em;
+    color: var(--aarillo-claro);
+}
+#descripcion{
+}
+#comics{
+    font-size: small;
+    color: lightgray;
+}
